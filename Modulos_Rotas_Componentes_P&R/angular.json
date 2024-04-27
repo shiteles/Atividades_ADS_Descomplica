@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "my-pensarresponder": {
+    "Modulos_Rotas_Componentes_P&R": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/my-pensarresponder",
+            "outputPath": "dist/Modulos_Rotas_Componentes_P&R",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "my-pensarresponder:build:production"
+              "buildTarget": "Modulos_Rotas_Componentes_P&R:build:production"
             },
             "development": {
-              "buildTarget": "my-pensarresponder:build:development"
+              "buildTarget": "Modulos_Rotas_Componentes_P&R:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "my-pensarresponder:build"
+            "buildTarget": "Modulos_Rotas_Componentes_P&R:build"
           }
         },
         "test": {

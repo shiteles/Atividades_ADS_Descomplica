@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'my-pensarresponder';
+  title = 'Modulos_Rotas_Componentes_P&R';
 }
